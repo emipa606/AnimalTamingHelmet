@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_AnimalTranslator</defName>
+    <label>Animal Translator helmet</label>
+    <description>An animal translator, user are more psychic sensitive and sluggish. Helps with training and taming animal.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/StupidHat/StupidHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>750</MarketValue>
+      <WorkToMake>45000</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>2.7</Mass>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.3</MoveSpeed>
+      <PsychicSensitivity>0.50</PsychicSensitivity>
+      <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+      <TameAnimalChance>9</TameAnimalChance>
+      <TrainAnimalChance>0.6</TrainAnimalChance>
+      <SocialImpact>-0.2</SocialImpact>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <MedicineUltratech>5</MedicineUltratech>
+      <Gold>25</Gold>
+    </costList>
+    <generateCommonality>0.1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/StupidHat/StupidHat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>
