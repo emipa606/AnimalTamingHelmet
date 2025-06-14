@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Animal Taming Helment</name>
   <author>BrokenValkyrie</author>
@@ -19,7 +19,7 @@ Make sure to take off the helmet when engaging non animal related activity. User
 
 Stats of the redicioul looking helmet.
 
-Increase taming chance. 900%(Not really) Due to the way taming chance is calculated, the stat on character is rougly 130%, but on with animal with wildness &gt;90% its around 35% for actual attempts.
+Increase taming chance. 900%(Not really) Due to the way taming chance is calculated, the stat on character is rougly 130%, but on with animal with wildness >90% its around 35% for actual attempts.
 Increased training chance. 60%(Not really) Again game calculation means that ttraining chance is not increased by 60% multiplitively or additionally.
 Reduce Global work speed. - 20%
 Social penalty. - 20%
